@@ -1,0 +1,40 @@
+body{
+ background-color: #ffffff;
+ color: #000000;
+
+}
+
+header{
+    background-color: #B987EC;
+    padding: 5px 0px 0px 60px ;
+
+}
+header img{
+    width: 90px;
+    height: auto;
+}
+
+h1{
+    color: #B987EC;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0px;
+
+}
+h2{
+    color: #B987EC;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+#quemSomos{
+    margin: 20px 60px;
+    width: 75%;
+}
+#quemSomos li{
+    list-style:disc;
+    margin: 0px 0px 0px 25px;
+}
+#quemSomos ul{
+    
+}
