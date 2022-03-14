@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 40px;
+    
+}
+header {
+    
+    background-color: #B987EC;
+}
+header div{
+    width: 80%;
+    margin: auto;
+}
+header div img {
+   width: 100px;
+}
+/**** Main e conteudo *****/
+main div{
+    width: 80%;
+    margin: auto;
+}
+main div h2 {
+   color: #B987EC;
+   font-size: 30px;
+}
+main div h3 {
+    color: #B987EC;
+    font-size: 20px;
+}
+main div p {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+ }
