@@ -13,7 +13,9 @@ header img{
     width: 90px;
     height: auto;
 }
-
+main{
+    margin: 20px 60px;
+}
 h1{
     color: #B987EC;
     font-weight: bold;
@@ -28,13 +30,54 @@ h2{
     margin: 15px 0px;
 }
 #quemSomos{
-    margin: 20px 60px;
+    
     width: 75%;
 }
 #quemSomos li{
     list-style:disc;
     margin: 0px 0px 0px 25px;
 }
-#quemSomos ul{
+.produtos img{
+    width: 90px;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    height: auto;
+    align-items: baseline;
+    
+
+}
+.item li{
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
     
 }
+.item_desc{
+    margin: 20px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    width: 530px;
+ 
+}
+footer{
+    background-color: #B987EC;
+    height: 100px;
+    display: block;
+ 
+}
+footer p{
+    display: block;
+    margin-top: 25px;
+    padding: 10px 30px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+ 
