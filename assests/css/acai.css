@@ -22,7 +22,12 @@ header div img {
    width: 100px;
 }
 /**** Main e conteudo *****/
+main {
+    margin-bottom: 100px;
+}
+
 main div{
+    
     width: 90%;
     margin: auto;
 }
