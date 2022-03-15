@@ -1,0 +1,63 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;    
+}
+
+header , footer{
+    background-color: #B987EC;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+}
+
+main{
+    margin: 15px 50px;
+}
+main p{
+    margin-left: 20px;
+}
+
+main ul{
+    margin-left: 20px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    color: #B987EC;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px 15px;
+    color: #B987EC;
+}
+
+.nossosProdutos div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nossosProdutos ul li{
+    display: flex;
+    align-items: center;
+}
+
+.nossosProdutos ul li div{
+    display: block;
+}
+
+.nossosProdutos figure img{
+    height: 200px;
+}
+
+
