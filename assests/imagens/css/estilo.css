@@ -39,7 +39,7 @@ footer{
     font-weight: bold;
     font-size: smaller;
     justify-content: space-around;
-}
+    }
 .titulos{
     color: #B987EC;
     background-color: #ffffff;
@@ -50,19 +50,28 @@ footer{
     color: #B987EC;
     background-color: #ffffff;
     font-weight: bold;
-    font-size: large
+    font-size: large;
 }
 .lista_corpo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     column-count: 2;
-    column-gap: 10 px;
-    column-width: 50px;
-    }
+    column-gap: 125px;
+    row-gap: 125px;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+        }
 .imagens_corpo{
+    float: left;
     width: 125px;
 }
 .imagem_logo{
 width: 75px;
+}
+.rodape1{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.rodape2{
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
