@@ -1,0 +1,64 @@
+body{
+    background-color: #ffffff;
+    margin: auto auto;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0px;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: #B987EC;
+    position: static;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 5px 5px;
+}
+main{color: black;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+.secao1{
+    text-align: flex;
+    align-content: flex-start;
+    
+}
+
+footer{
+    background-color: #B987EC;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 25px 25px;
+    font-weight: bold;
+    font-size: smaller;
+    justify-content: space-around;
+}
+.titulos{
+    color: #B987EC;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.subtitulos{
+    color: #B987EC;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: large
+}
+.lista_corpo{
+    column-count: 2;
+    column-gap: 10 px;
+    column-width: 50px;
+    }
+.imagens_corpo{
+    width: 125px;
+}
+.imagem_logo{
+width: 75px;
+}
