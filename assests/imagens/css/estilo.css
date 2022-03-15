@@ -16,17 +16,18 @@ header{
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 5px 5px;
+    padding: 15px 30px;
+
 }
 main{color: black;
     background-color: #ffffff;
     justify-content: space-between;
+    margin: 15px 50px;
 }
 .secao1{
     text-align: flex;
     align-content: flex-start;
-    
-}
+    }
 
 footer{
     background-color: #B987EC;
@@ -52,6 +53,9 @@ footer{
     font-size: large
 }
 .lista_corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     column-count: 2;
     column-gap: 10 px;
     column-width: 50px;
