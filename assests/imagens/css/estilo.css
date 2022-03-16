@@ -24,11 +24,6 @@ main{color: black;
     justify-content: space-between;
     margin: 15px 50px;
 }
-.secao1{
-    text-align: flex;
-    align-content: flex-start;
-    }
-
 footer{
     background-color: #B987EC;
     width: 100%;
@@ -52,20 +47,34 @@ footer{
     font-weight: bold;
     font-size: large;
 }
-.lista_corpo{
-    column-count: 2;
-    column-gap: 125px;
-    row-gap: 125px;
-    align-items: center;
-    justify-content: space-between;
+.lista_corpo1{
     display: block;
-        }
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    }
+.lista_corpo2{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
 .imagens_corpo{
-    float: left;
     width: 125px;
 }
 .imagem_logo{
 width: 75px;
+}
+.secao1{
+    text-align: flex;
+    align-content: flex-start;
+    }
+.secao2{
+    columns: 2;
+        }
+.descricoes{
+    display: flex;
+    align-items: center;
 }
 .rodape1{
     margin-top: 0px;
