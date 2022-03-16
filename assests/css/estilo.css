@@ -3,6 +3,8 @@ body {
     background-color: #ffffff;
 }
 
+/* Cabeçalho */
+
 header {
     background-color: #B987EC;
     width: 100%;
@@ -19,9 +21,11 @@ header > img {
     
 }
 
+/* Section */
+
 section > h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     color: #B987EC;
     margin-top: 20px;
@@ -30,7 +34,7 @@ section > h2 {
 
 section > h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bolder;
     color: #B987EC;
     margin-top: 20px;
@@ -39,10 +43,11 @@ section > h3 {
 
 section > p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     font-weight: bolder;
     color: #000000;
     margin-left: 30px;
-    padding-top: 5px
+    padding-top: 10px
 }
 
 
@@ -59,46 +64,53 @@ section ul > li {
     margin-left: 40px;
 }
 
+/* Article */
+
 article > h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     color: #B987EC;
     margin-top: 80px;
     margin-left: 50px;
 }
 
-.container {
+ article .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .container ul li {
-    margin-top: 20px;
-    justify-content: space-around;
+    display: flex;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #000000;
 }
 
-.container  img {
+.container ul li div{
+    display: block;
+}
+
+.container img {
     height: 150px;
+    padding-top: 20px;
 }
 
-.container p{
+.container p {
+    align-items: center;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #000000;
-    margin-left: 20px;
+    margin: 10px 0px 10px 10px;
+    margin-top: 50px;
 }
+
+/* Rodape */
 
 footer {
     width: 100%;
     height: 120px;
     background-color: #B987EC;
-   
 }
 footer p {
     font-family: Arial, Helvetica, sans-serif;
@@ -106,4 +118,5 @@ footer p {
     color: #000000;
     padding-top: 20px;
     margin-top: 45px;
+    margin-left: 30px;
 }
