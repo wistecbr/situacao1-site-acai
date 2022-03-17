@@ -1,7 +1,7 @@
 body{
  background-color: #ffffff;
  color: #000000;
-
+ font-family: 'Lato', sans-serif;
 }
 
 header{
@@ -16,14 +16,14 @@ header img{
 main{
     margin: 20px 60px;
 }
-h1{
+h2{
     color: #B987EC;
     font-weight: bold;
     font-size: 30px;
     margin: 20px 0px;
 
 }
-h2{
+h3{
     color: #B987EC;
     font-weight: bold;
     font-size: 20px;
@@ -38,33 +38,24 @@ h2{
     margin: 0px 0px 0px 25px;
 }
 .produtos img{
-    width: 90px;
+    width: 100px;
+    margin: 0px 0px 15px 0px;   
 }
 .produtos{
     display: flex;
-    flex-wrap: wrap ;
-    justify-content: space-between;
-    height: auto;
-    align-items: baseline;
-    
+}
+.item {
+    display: flex;
 
 }
 .item li{
     display: flex;
-    justify-content:stretch;
-    align-items: center;
-    
-}
-.item_desc{
     margin: 20px 0px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    padding: 10px 0px;
+    align-items: flex-start;
 }
-ul{
-    width: 530px;
- 
-}
+    
+
 footer{
     background-color: #B987EC;
     height: 100px;
